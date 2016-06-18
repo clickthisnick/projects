@@ -4,7 +4,7 @@
     "root": true, // Tells gulp to use this .eslintrc
     "env": {
         "mocha": true,
-        "es6" : true, 
+        "es6" : true,
         "node": true // node globals
     },
     "extends": [
@@ -240,6 +240,6 @@
         "mocha/no-pending-tests": 1, // disallow pending/unimplemented mocha tests
         "mocha/handle-done-callback": 1, // enforces handling of callbacks for async tests
         "mocha/no-synchronous-tests": 0, // disallow synchronous tests
-        "mocha/no-global-tests": 1, // disallow global tests
+        "mocha/no-global-tests": 1 // disallow global tests
     }
 }

@@ -46,5 +46,9 @@
     "zone.js": "^0.6.12"
   },
   "paths": {},
-  "dependencies": {}
+  "dependencies": {
+    "chai": "^3.5.0",
+    "expect": "^1.20.1",
+    "mocha": "^2.5.3"
+  }
 }
