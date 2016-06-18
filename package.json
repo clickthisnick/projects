@@ -15,7 +15,7 @@
   },
   "readmeFilename": "README.md",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "@angular/common": "2.0.0-rc.1",
     "@angular/compiler": "2.0.0-rc.1",
     "@angular/core": "2.0.0-rc.1",
@@ -54,5 +54,5 @@
     "mocha": "^2.5.3"
   },
   "paths": {},
-  "dependencies": {}
+  "devDependencies": {}
 }
