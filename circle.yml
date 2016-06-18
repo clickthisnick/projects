@@ -1,0 +1,15 @@
+machine:
+  node:
+    version: 6.2.0
+  timezone:
+    US/Eastern
+
+general:
+  branches:
+    ignore:
+      - master
+
+dependencies:
+  pre:
+    - npm install -g npm@3.3.12
+    - npm install -g gulp-cli
