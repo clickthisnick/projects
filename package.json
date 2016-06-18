@@ -1,11 +1,12 @@
 {
-  "name": "ClickThisNick Projects",
+  "name": "clickthisnick-projects",
   "version": "1.0.0",
   "description": "ClickThisNick Projects",
   "directories": {
     "test": "app/test/"
   },
   "scripts": {
+    "mocha-testing": "mocha ./app/test/",
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
     "postinstall": "typings install",

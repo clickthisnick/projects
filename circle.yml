@@ -13,9 +13,8 @@ dependencies:
   pre:
     - npm install -g npm@3.3.12
     - npm install -g gulp-cli
-    - npm install -g expect
 
 ## Customize test commands
 test:
   override:
-    - mocha app/test/ # Using mocha to test
+    - npm run mocha-testing # Using mocha to test
