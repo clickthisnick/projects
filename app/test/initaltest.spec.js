@@ -1,3 +1,5 @@
+/* istanbul ignore next */
+
 var expect = require('expect'),
     ss = require('../src/initialtest.js');
 
