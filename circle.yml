@@ -19,3 +19,6 @@ test:
   override:
     - npm run lint
     - npm run mocha-testing # Using mocha to test
+
+  post:
+    - bash <(curl -s https://codecov.io/bash)
