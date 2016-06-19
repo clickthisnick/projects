@@ -18,7 +18,6 @@ dependencies:
 test:
   override:
     - npm run lint
-    - npm run coverage-clean
     - npm run mocha-coverage
 
   post:
