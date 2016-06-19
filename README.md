@@ -1,3 +1,5 @@
+<a href='https://coveralls.io/github/clickthisnick/projects?branch=master'><img src='https://coveralls.io/repos/github/clickthisnick/projects/badge.svg?branch=master' alt='Coverage Status' /></a>
+
 # projects
 List of my projects
 

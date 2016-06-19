@@ -13,7 +13,8 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "lint": "eslint ./app/"
+    "lint": "eslint ./app/",
+    "": "istanbul cover _mocha app/test/ -- -R spec"
   },
   "readmeFilename": "README.md",
   "license": "ISC",
