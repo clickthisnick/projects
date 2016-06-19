@@ -14,7 +14,8 @@
     "tsc:w": "tsc -w",
     "typings": "typings",
     "lint": "eslint ./app/",
-    "": "istanbul cover _mocha app/test/ -- -R spec"
+    "coverage-clean": "rm -r coverage",
+    "mocha-coverage": "istanbul cover _mocha app/test/ -- -R spec"
   },
   "readmeFilename": "README.md",
   "license": "ISC",

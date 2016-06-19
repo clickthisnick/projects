@@ -18,7 +18,8 @@ dependencies:
 test:
   override:
     - npm run lint
-    - npm run mocha-testing # Using mocha to test
+    - npm run coverage-clean
+    - npm run mocha-coverage
 
   post:
     - bash <(curl -s https://codecov.io/bash)
