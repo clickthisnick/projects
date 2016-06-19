@@ -17,7 +17,8 @@ dependencies:
 ## Customize test commands
 test:
   override:
-    - npm run lint
+    - npm run lint-js
+    - npm run html-js
     - npm run mocha-coverage
 
   post:
