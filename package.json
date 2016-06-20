@@ -13,7 +13,8 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "lint": "eslint ./app/",
+    "lint-js": "eslint ./app/",
+    "lint-html": "htmlhint ./app/",
     "mocha-coverage": "istanbul cover _mocha app/test/ -- -R spec"
   },
   "readmeFilename": "README.md",
@@ -48,6 +49,7 @@
     "lite-server": "^2.2.0",
     "lodash": "^4.6.1",
     "mocha": "^2.5.3",
+    "htmlhint": "^0.9.13",
     "mocha-istanbul": "^0.2.0",
     "mocha-lcov-reporter": "^1.2.0",
     "node-notifier": "^4.2.3",
