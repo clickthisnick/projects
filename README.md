@@ -1,5 +1,6 @@
 [![codecov](https://codecov.io/gh/clickthisnick/projects/branch/master/graph/badge.svg)](https://codecov.io/gh/clickthisnick/projects)
 
+[![Issue Count](https://codeclimate.com/github/clickthisnick/projects/badges/issue_count.svg)](https://codeclimate.com/github/clickthisnick/projects)
 
 # projects
 List of my projects
