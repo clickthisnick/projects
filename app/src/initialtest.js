@@ -1,5 +1,3 @@
-/* istanbul ignore next */
-
 function returnTrue() {
     return true;
 }

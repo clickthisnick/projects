@@ -1,0 +1,22 @@
+---
+engines:
+  fixme:
+    enabled: true
+    config:
+      strings:
+      - FIXME
+      - BUG
+      - CUSTOM
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+  markdownlint:
+    enabled: true
+ratings:
+  paths:
+  - "test/**"
+exclude_paths:
+- node_modules/
+- .codeclimate.yml
