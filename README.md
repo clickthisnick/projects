@@ -6,7 +6,6 @@
 
 List of my projects
 
-
 # Setting up local environment instructions
 
 # Git
