@@ -44,5 +44,7 @@ If github two factor auth password is your personal OAuth Token
 3.) Add a branch to build with circleci  ( You get one container for free )
 <https://circleci.com/add-projects>
 
-4.) Enable Github status check - ( Can't merge branch into master unless passes CI and no force pushing master)
+4.) Enable Github status checks
+    Can't merge branch into master unless passes CI
+    Can't force pushing into master
 <https://help.github.com/articles/enabling-required-status-checks/>
