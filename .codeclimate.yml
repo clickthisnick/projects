@@ -2,6 +2,8 @@
 engines:
   fixme:
     enabled: true
+    exclude_fingerprints:
+    - b3d64fc578bcf5ae4e0dbff33f60dc4e
     config:
       strings:
       - FIXME
