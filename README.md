@@ -1,4 +1,5 @@
-<a href='https://coveralls.io/github/clickthisnick/projects?branch=master'><img src='https://coveralls.io/repos/github/clickthisnick/projects/badge.svg?branch=master' alt='Coverage Status' /></a>
+[![codecov](https://codecov.io/gh/clickthisnick/projects/branch/master/graph/badge.svg)](https://codecov.io/gh/clickthisnick/projects)
+
 
 # projects
 List of my projects
