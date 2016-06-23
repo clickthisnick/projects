@@ -20,8 +20,8 @@ test:
     - npm run lint-js
     - npm run lint-html
     - npm run mocha-coverage
-    - sudo apt-get install php7.0
-    - find api -name '*.php' -exec php -l {} \;
+    - sudo apt-get install php5 # Just for linting php
+    - find api -name '*.php' -exec php -l {} \; # Loop through every php file and make sure no syntax errors
 
   post:
     - bash <(curl -s https://codecov.io/bash)
