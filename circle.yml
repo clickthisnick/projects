@@ -20,8 +20,6 @@ test:
     - npm run lint-js
     - npm run lint-html
     - npm run mocha-coverage
-    - sudo add-apt-repository ppa:ondrej/php
-    - sudo apt-get update
     - sudo apt-get install php7.0
     - find api -name '*.php' -exec php -l {} \;
 
