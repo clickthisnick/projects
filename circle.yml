@@ -23,4 +23,4 @@ test:
     - find api -name '*.php' -exec php -l {} \; # Loop through every php file and make sure no syntax errors
 
   post:
-    - bash <(curl -s https://codecov.io/bash)
+    # - bash <(curl -s https://codecov.io/bash)

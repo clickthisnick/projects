@@ -10,14 +10,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var AppComponent = (function () {
-    function AppComponent() {
+    function AppComponent(titleService) {
+        this.titleService = titleService;
     }
+    AppComponent.prototype.setTitle = function (newTitle) {
+        this.titleService.setTitle(newTitle);
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
             templateUrl: 'app/main/main.html',
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [Object])
     ], AppComponent);
     return AppComponent;
 }());
