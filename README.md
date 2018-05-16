@@ -4,6 +4,8 @@
 
 # Projects
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/clickthisnick/projects.svg)](https://greenkeeper.io/)
+
 List of my projects
 
 # Setting up local environment instructions
