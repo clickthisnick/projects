@@ -1,26 +1,12 @@
-machine:
-  node:
-    version: 5.3.0
-  timezone:
-    US/Eastern
-
-general:
-  branches:
-    ignore:
-      - master
-
-dependencies:
-  pre:
-    - npm install -g npm@3.3.12
-    - npm install -g gulp-cli
-
-## Customize test commands
-test:
-  override:
-    # - npm run lint-js
-    # - npm run lint-html
-    # - npm run mocha-coverage
-    - find api -name '*.php' -exec php -l {} \; # Loop through every php file and make sure no syntax errors
-
-  post:
-    # - bash <(curl -s https://codecov.io/bash)
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
