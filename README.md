@@ -2,7 +2,7 @@
 
 [![Issue Count](https://codeclimate.com/github/clickthisnick/projects/badges/issue_count.svg)](https://codeclimate.com/github/clickthisnick/projects)
 
-# Projects
+# Projects 
 
 List of my projects
 
